@@ -94,7 +94,7 @@ function addBook() {
     id: +new Date(),
     title: inputTitle.value,
     author: inputAuthor.value,
-    year: inputYear.value,
+    year: Number(inputYear.value),
     isComplete: inputIsComplete.checked,
   };
 
