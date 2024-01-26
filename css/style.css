@@ -112,6 +112,7 @@ main {
 .search_section > form > label {
   display: flex;
   align-items: center;
+  font-size: 1.5rem;
 }
 
 .search_section > form > input {
@@ -180,6 +181,9 @@ p {
 /* TABLET */
 
 @media (min-width: 535px) and (max-width: 1024px) {
+  .search_section #searchBook input {
+    min-width: 60%;
+  }
 }
 
 /* MOBILE PHONE */
